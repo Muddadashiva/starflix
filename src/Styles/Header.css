@@ -1,0 +1,43 @@
+/* 
+/* Header.css */
+/* White links inside Offcanvas */
+.offcanvas .nav-link {
+    color: rgb(20, 4, 4) !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* White close button */
+.offcanvas .btn-close {
+    filter: invert(1); /* Makes the close icon visible on dark background */
+}
+.header{
+        
+        background-color: #0f2133;
+    
+}
+
+/* Custom Dropdown Menu Look */
+.account-dropdown {
+  background-color: #0a1a3b; /* dark blue */
+  border-radius: 6px;
+  min-width: 220px;
+  padding: 10px 0;
+}
+
+.account-dropdown .dropdown-item {
+  color: white !important;
+  padding: 10px 16px;
+  font-size: 14px;
+}
+
+.account-dropdown .dropdown-item:hover {
+  background-color: #1b2a52 !important;
+}
+
+.account-dropdown .dropdown-item.text-danger {
+  color: #ff4b4b !important;
+}
+
+
+

@@ -1,0 +1,20 @@
+.hover-yellow a {
+  /* color: inherit; keep original color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.hover-yellow a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+.form-select {
+  border-left: 2px solid white !important;
+  border-right: 2px solid white !important;
+  border-radius: 0px;
+}
+
+.pagination .active {
+  color: orange !important;
+}

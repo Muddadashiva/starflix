@@ -1,0 +1,32 @@
+.movie-card-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.movie-card-img .overlay {
+  position: absolute;
+  bottom: -50px; /* start hidden below */
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: bottom 0.3s ease-in-out;
+}
+
+.movie-card-img:hover .overlay {
+  bottom: 10px; /* slide up into view */
+}
+
+.read-more-btn {
+  background-color: rgba(0, 123, 255, 0.9); /* semi-transparent blue */
+  border: none;
+  color: white;
+  padding: 0.4rem 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background-color: rgba(0, 123, 255, 1);
+}

@@ -1,0 +1,32 @@
+.Homepage{
+    background-position: center;
+    background-size: cover;    
+}
+/* Hide carousel arrows on screens smaller than 768px (mobile) */
+@media (max-width: 767px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+}
+
+
+.social-btn {
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    color: #12aee5;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 35px;
+}
+
+.parent-btn{
+  padding: 10px 14px;
+    text-align: center;
+    /* -webkit-border-radius: 50%; */
+    /* -moz-border-radius: 50%; */
+    border-radius: 50%;
+    border: 1px solid #12aee5;
+    margin-right: 10px;
+    font-size: 18px;
+}

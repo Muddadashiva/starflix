@@ -1,0 +1,77 @@
+ .theater-section {
+  background-color: #0b1a2a;
+  min-height: 80vh;
+}
+
+/* Video Item Styling */
+.video-item {
+  cursor: pointer;
+  background: transparent;
+  transition: background 0.3s ease;
+}
+
+.video-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.video-item.active {
+  background-color: #1a3a5f;
+}
+
+.thumb {
+  width: 100px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Optional Scrollable List (if not using slick) */
+.video-list {
+  max-height: 400px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.video-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Slick Slider Buttons */
+.slick-prev,
+.slick-next {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  z-index: 2;
+  transition: background 0.3s ease;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background: #2c5788;
+}
+
+.slick-dots li button:before {
+  color: white;
+  font-size: 10px;
+}
+
+/* Optional custom slider arrows (if using custom components) */
+.arrow-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* background-color: rgba(255, 255, 255, 0.15); */
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 10;
+}
+
+.arrow-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.up-arrow { top: -15px; }
+.down-arrow { bottom: -15px; }
